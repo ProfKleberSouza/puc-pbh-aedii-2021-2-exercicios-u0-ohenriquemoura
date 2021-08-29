@@ -1,8 +1,21 @@
 #include <stdio.h>
+#define tam 1000
 
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
+   int vet[tam];
+  
+   for(int i=0;i<tam;i++){
+     scanf("%i", &vet[i]);
+     if(vet[i]>0){
+       printf("POSITIVO\n");
+     }
+     else if(vet[i]<0){
+       printf("NEGATIVO\n");
+     }
+     else if(vet[i]==0){
+      break;
+     }
+     
+   } 
    return 0;
 }

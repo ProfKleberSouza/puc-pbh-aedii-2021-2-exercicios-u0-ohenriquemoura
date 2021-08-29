@@ -1,8 +1,15 @@
 #include <stdio.h>
-
+#define N 10
 int main() {
-   int n1, n2;
-   scanf("%i %i", &n1, &n2);
-   printf("SOMA = %i\n", n1+n2);
-   return 0;
+    int vet1[N], vet2[N];
+    int i;
+    for(i = 0; i < N; i++) {
+        
+        scanf("%d", &vet1[i]);
+    }
+    for(i = 0; i < N; i++) {
+        vet2[i] = vet1[N-i-1];
+        printf("%d\n", vet2[i]);
+    }
+    return 0;
 }

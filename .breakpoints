@@ -1,0 +1,20 @@
+{
+  "files": {
+    "exe08/inputs/001": [
+      {
+        "id": "e62d4d3e-47cb-4604-b85f-4ee5d4b907c1",
+        "line": 4,
+        "version": 7,
+        "index": 6
+      }
+    ],
+    "exe08/outputs/010": [
+      {
+        "id": "0abf4036-1d78-46eb-9373-5040c0cbf6db",
+        "line": 1,
+        "version": 0,
+        "index": 0
+      }
+    ]
+  }
+}
